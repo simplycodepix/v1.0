@@ -1,0 +1,27 @@
+.page-hero {
+  height: 360px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center; }
+
+.page-hero_news {
+  background-image: url(img/news-bg.jpg);
+
+}
+  .page-hero_news .page-hero_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .page-hero_news h2 {
+    font-size: 36px;
+    font-weight: 700; }

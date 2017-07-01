@@ -1,0 +1,15 @@
+.page-sit_panel .panel-titles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    background-color: #120b07;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25); }
+    .page-sit_panel .panel-titles .panel-title {
+      width: 20%;
+      text-transform: uppercase;
+      color: #ffc000;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center; }

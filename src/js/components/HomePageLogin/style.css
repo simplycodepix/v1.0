@@ -1,0 +1,84 @@
+/* Block 01 */
+.block-01 {
+  background: url("img/block-01-bg.jpg") no-repeat left 100% top 100%;
+  clear: both;
+  padding: 30px 0;
+  background-size: cover; }
+
+
+.tabs-regform {
+  display: inline-block;
+  margin: 40px 0;
+  background: #2d1e16;
+  padding-bottom: 35px;
+  box-shadow: 0px 0px 68px 0px rgba(255, 192, 0, 0.54); }
+
+.tabs-regform ul:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 1px;
+  background: #2d1e16; }
+
+.tabs-regform ul li {
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+  display: block;
+  float: left;
+  padding: 25px 0;
+  width: 142px;
+  text-align: center;
+  color: #ffc000;
+  font-family: "Black";
+  text-transform: uppercase; }
+
+.tabs-regform ul li a {
+  color: #ffc000;
+  text-decoration: none;
+
+}
+
+.tabs-regform ul li.active, .tabs-regform ul li.active:hover {
+  background: #3f2b20; }
+
+.tabs-regform ul li:hover {
+  background: #3f2b20; }
+
+.tabs-regform input[type=email], .tabs-regform input[type=password] {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  color: #70594d !important;
+  border: none;
+  outline: none;
+  background-color: #3f2b20 !important;
+  padding: 10px 35px 10px 60px;
+  margin-top: 1px; }
+
+.email-bef, .pass-bef {
+  position: relative;
+  clear: both; }
+
+.tabs-regform .email-bef:before {
+  content: "\f003";
+  font-family: "FontAwesome"; }
+
+.tabs-regform .pass-bef:before {
+  content: "\e800";
+  font-family: "Fontello"; }
+
+.email-bef:before, .pass-bef:before {
+  position: absolute;
+  top: 8px;
+  left: 35px;
+  color: #70594d; }
+
+.email-bef-active:before, .pass-bef-active:before {
+  position: absolute;
+  color: #ffc000;
+  top: 8px;
+  left: 35px; }
+
+.tabs-regform input[type=email]:active, .tabs-regform input[type=password]:active, .tabs-regform input[type=email]:focus, .tabs-regform input[type=password]:focus {
+  color: #ffc000 !important; }

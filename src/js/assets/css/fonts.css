@@ -1,0 +1,47 @@
+@font-face {
+
+  font-family: "ArimoBold";
+
+  src: url('./fonts/Arimo-Bold.ttf');
+
+}
+
+@font-face {
+
+  font-family: "Regular";
+
+  src: url('./fonts/Lato-Regular.ttf');
+
+}
+
+@font-face {
+
+  font-family: "Light";
+
+  src: url('./fonts/Lato-Light.ttf');
+
+}
+
+@font-face {
+
+  font-family: "Bold";
+
+  src: url('./fonts/Lato-Bold.ttf');
+
+}
+
+@font-face {
+
+  font-family: "Black";
+
+  src: url('./fonts/Lato-Black.ttf');
+
+}
+
+@font-face {
+
+  font-family: "Thin";
+
+  src: url('./fonts/Lato-Thin.ttf');
+
+}

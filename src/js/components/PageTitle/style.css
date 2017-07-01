@@ -1,0 +1,68 @@
+.tournaments-title-block {
+  -webkit-transform: skew(-40deg);
+  -moz-transform: skew(-40deg);
+  -o-transform: skew(-40deg);
+  background: #ffc000;
+  width: 83%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative; }
+
+.tournaments-title-block:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 4px;
+  width: 90px;
+  top: 45%;
+  left: -45px;
+  background: #2d1e16;
+  -webkit-transform: skew(40deg);
+  -moz-transform: skew(40deg);
+  -o-transform: skew(40deg); }
+
+.tournaments-title {
+  -webkit-transform: skew(40deg);
+  -moz-transform: skew(40deg);
+  -o-transform: skew(40deg);
+  font-size: 36px;
+  color: #2d1e16;
+  font-family: "Black";
+  position: relative;
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: middle;
+  right: -20px; }
+
+.tournaments-title:before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -45px;
+  top: 13px;
+  background: url(./img/tournament-icon.png) no-repeat center center; }
+
+.stg-icon:before {
+  background: url(./img/chip.png) no-repeat center center; }
+
+.tournaments-title-block:after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 4px;
+  width: 90px;
+  top: 45%;
+  right: -45px;
+  background: #2d1e16;
+  -webkit-transform: skew(40deg);
+  -moz-transform: skew(40deg);
+  -o-transform: skew(40deg); }
+
+.tournament-info-block {
+  background: #2d1e16;
+  padding: 15px 0 15px 15px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 40px; }

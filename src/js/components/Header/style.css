@@ -1,0 +1,165 @@
+.page-header {
+  height: 100%;
+  position: fixed;
+  width: 90px;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  box-shadow: 2px 0 3px rgba(0, 0, 0, 0.6);
+  padding: 25px 0;
+  margin: 0;
+  border-bottom: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #2d1e16; }
+  .page-header_logo .logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FFF; }
+  .page-header_nav {
+    width: 100%; }
+    .page-header_nav__list {
+      list-style-type: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: column;
+          flex-flow: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 100%; }
+      .page-header_nav__list li:hover .page-header_desc {
+        right: -180px;
+        opacity: 1; }
+      .page-header_nav__list li:first-child a {
+        margin-top: 0; }
+      .page-header_nav__list a {
+        transition: all 0.15s ease-out 0s;
+        color: #fff;
+        display: block;
+        margin-top: 20px;
+        position: relative; }
+        .page-header_nav__list a:hover .page-header_icon {
+          box-shadow: 0px 0px 16px rgba(255, 192, 0, 0.75); }
+        .page-header_nav__list a:hover .page-header_desc {
+          color: #FFDC00;
+          right: -180px;
+          opacity: 1; }
+      .page-header_nav__list .page-header_icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        transition: all 0.15s ease-out 0s;
+        line-height: 60px;
+        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.8); }
+      .page-header_nav__list .page-header_desc {
+        position: absolute;
+        right: -9965px;
+        z-index: 9;
+        border-radius: 5px;
+        transition: all 0.2s ease-out 0s;
+        opacity: 0;
+        text-align: center;
+        line-height: 50px;
+        text-transform: uppercase;
+        box-shadow: 7px 0px 12px rgba(0, 0, 0, 0.7);
+        font-size: 16px;
+        top: 50%;
+        width: 150px;
+        background: #2d1e16;
+        height: 50px;
+        margin-top: -25px; }
+      .page-header_nav__list .page-header_user {
+        position: relative; }
+        .page-header_nav__list .page-header_user .page-header_desc {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          padding-right: 10px;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; }
+        .page-header_nav__list .page-header_user__info {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          line-height: 50px;
+          box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.8);
+          transition: all 0.15s ease-out 0s; }
+          .page-header_nav__list .page-header_user__info:hover {
+            box-shadow: 0px 0px 16px rgba(255, 192, 0, 0.75); }
+      .page-header_nav__list .page-header_user__info {
+        text-align: center; }
+        .page-header_nav__list .page-header_user__info img {
+          width: 30%; }
+  .page-header_bottom__list {
+    list-style-type: none; }
+    .page-header_bottom__list li:first-child a {
+      margin-top: 0; }
+    .page-header_bottom__list a {
+      margin-top: 10px;
+      display: block;
+      text-align: center; }
+    .page-header_bottom__list .page-header_icon {
+      text-align: center; }
+      .page-header_bottom__list .page-header_icon.que img {
+        width: 40%; }
+      .page-header_bottom__list .page-header_icon img {
+        width: 60%; }
+
+
+/* HEADER USER COMPONENT STYLES */
+
+.page-header_user {}
+.page-user_icon {
+  margin-bottom: 15px;
+  text-align: center;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.8);
+  width: 60px;
+  transition: all 0.2s ease-out 0s;
+  height: 60px;
+  border-radius: 50%;
+}
+.page-user_icon:hover {
+  box-shadow: 0px 0px 16px rgba(255, 192, 0, 0.75);
+}
+.page-user_desc {}
+.page-user_desc a {
+  display: block;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.page-user_desc a:last-child {
+  margin-bottom: 0;
+}
+.page-user_desc span {
+  margin-top: 3px;
+  font-size: 12px;
+  color: #fff;
+  display: block;
+}
+.page-user_logout {
+  
+}
+
+.page-header_user__info {
+  margin-bottom: 5px;
+}
+.page-header_user__info img {
+  width: 30%;
+}

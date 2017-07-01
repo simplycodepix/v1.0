@@ -1,0 +1,27 @@
+footer {
+  background: #2d1e16;
+  padding: 30px 0;
+  overflow: hidden; }
+
+.footer-nav ul li {
+  border-right: 1px solid #e0dfde;
+  display: inline-block;
+  line-height: 17px;
+  vertical-align: middle;
+  margin-right: 5px; }
+
+.footer-nav ul li:last-child {
+  border: none; }
+
+.footer-nav ul li a {
+  font-size: 16px;
+  color: #fff;
+  margin-right: 7px; }
+
+.footer-nav ul li a:hover {
+  color: #ffc000;
+  text-decoration: none; }
+
+.copyright {
+  color: #eacda1;
+  margin-top: 20px; }
